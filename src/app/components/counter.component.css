@@ -1,0 +1,11 @@
+.number{
+    width: 20vw;
+    height: auto;
+    opacity: 100%;
+}
+
+.number-mouseover {
+    width: 20vw;
+    height: auto;
+    opacity: 50%;
+}

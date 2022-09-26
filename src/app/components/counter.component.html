@@ -1,0 +1,10 @@
+<button (click)="clickPrev()">Prev</button>
+<img
+  [src]="image"
+  [alt]="currNumber"
+  [ngClass]="imageClass(mouseover)"
+  (click)="clickImage()"
+  (mouseenter)="cursorOnImage()"
+  (mouseleave)="cursorOutImage()"
+/>
+<button (click)="clickNext()">Next</button>
